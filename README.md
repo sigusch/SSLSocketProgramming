@@ -7,8 +7,8 @@ commands for running server and client application
 
 server:
 
-java -Djavax.net.ssl.keyStore={path to server keystore} -Djavax.net.ssl.keyStorePassword=netzwerk server
+java -Djavax.net.ssl.keyStore={path to server keystore} -Djavax.net.ssl.keyStorePassword={pw} server
 
 client:
 
-java -Djavax.net.ssl.trustStore={path to client keystore} -Djavax.net.ssl.trustStorePassword=netzwerk client
+java -Djavax.net.ssl.trustStore={path to client keystore} -Djavax.net.ssl.trustStorePassword={pw} client
